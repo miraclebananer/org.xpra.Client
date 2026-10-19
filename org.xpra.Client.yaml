@@ -31,8 +31,8 @@ modules:
     buildsystem: meson
     sources:
       - type: archive
-        url: https://github.com/pygobject/pycairo/releases/download/v1.29.1/pycairo-1.29.1.tar.gz
-        sha256: 4fbd26b4af24c9787d84cf5448e34eb8dca064b732479aaecd03109520eebd5f
+        url: https://github.com/pygobject/pycairo/releases/download/v1.29.2/pycairo-1.29.2.tar.gz
+        sha256: 3e69fff74fe64f5ba2dfa31f67c6bdf26413342574047437d2ac520d35e9a489
 
   # PyGObject - Python GObject bindings (built from source for headers)
   - name: pygobject
@@ -41,8 +41,8 @@ modules:
       - -Dpython=python3
     sources:
       - type: archive
-        url: https://download.gnome.org/sources/pygobject/3.57/pygobject-3.57.1.tar.gz
-        sha256: 126f82d8e6b24008e07a394fc09631f196159a94f5970a4ae27c5a35fc15ef23
+        url: https://download.gnome.org/sources/pygobject/3.58/pygobject-3.58.1.tar.gz
+        sha256: 4c80598ade17fbaa7798e01a25d0bf29ce109740786026a074c5c62bb3e79d23
 
   # Xpra itself
   - name: xpra
@@ -70,9 +70,9 @@ modules:
       - install -Dm644 fs/share/icons/xpra.png /app/share/icons/hicolor/192x192/apps/org.xpra.Client.png
     sources:
       - type: archive
-        url: https://api.github.com/repos/Xpra-org/xpra/tarball/v6.5.3
-        sha256: 02f6128db8b426059f2978b22db1b68d9a9ffd4f3bebc182b0c95dc275a794fb
-        dest-filename: xpra-6.5.3.tar.gz
+        url: https://api.github.com/repos/Xpra-org/xpra/tarball/v6.5.5
+        sha256: e852f23fdb801662c8c06904190f91ece6c5da9a2465e2ea017dabf275bb90be
+        dest-filename: xpra-6.5.5.tar.gz
       - type: file
         path: org.xpra.Client.desktop
       - type: file
