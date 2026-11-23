@@ -70,9 +70,9 @@ modules:
       - install -Dm644 fs/share/icons/xpra.png /app/share/icons/hicolor/192x192/apps/org.xpra.Client.png
     sources:
       - type: archive
-        url: https://api.github.com/repos/Xpra-org/xpra/tarball/v6.5.5
-        sha256: e852f23fdb801662c8c06904190f91ece6c5da9a2465e2ea017dabf275bb90be
-        dest-filename: xpra-6.5.5.tar.gz
+        url: https://api.github.com/repos/Xpra-org/xpra/tarball/v7.0
+        sha256: d9832a52bad5a51d737fc20960fbf742b839fa75f5d07b1befa22f797064a1e2
+        dest-filename: xpra-7.0.tar.gz
       - type: file
         path: org.xpra.Client.desktop
       - type: file
